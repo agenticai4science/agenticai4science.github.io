@@ -36,6 +36,15 @@
   ======================================================== -->
   
   <style>
+.organizer-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  justify-items: center;
+}
+.image-box { text-align: center; }
+.image-box img { width: 180px; height: 180px; object-fit: cover; border-radius: 10px; }
+
 .container_image {
     display: flex;
     justify-content: space-between; /* Space between images */
@@ -789,100 +798,77 @@ ul li {
 
 	
 	<section id="organizers" class="schedule section light-background">
-	<div class="container section-title" data-aos="fade-up">
-        <h2>ORGANIZERS</h2>
-        <!-- <p>Dr. Danai Koutra / University of Michigan / koutra@umich.edu / https://web.eecs.umich.edu/~dkoutra</p>
-		<p>Dr. Lifu Huang /  UC Davis / lfuhuang@ucdavis.edu / https://wilburone.github.io</p>
-		<p>Dr. Temiloluwa Prioleau / Dartmouth College / tprioleau@dartmouth.edu / https://www.t-prioleau.com</p>
-		<p>Dr. Qingyun Wu / Pennsylvania State University, / qingyun.wu@psu.edu / https://qingyun-wu.github.io</p>
-		<p>Dr. Yujun Yan / Dartmouth College / yujun.yan@dartmouth.edu / https://sites.google.com/umich.edu/yujunyan/home</p>
-		<p>Dr. Yaoqing Yang / Dartmouth College / yaoqing.yang@dartmouth.edu / https://sites.google.com/site/yangyaoqingcmu</p>
-		<p>Dr. James Zou / Stanford University / jamesz@stanford.edu / https://www.james-zou.com/</p>
-		<p>Dr. Dawei Zhou / Virginia Tech / zhoud@vt.edu / https://sites.google.com/view/dawei-zhou/home</p> -->
-		
+  <div class="container section-title" data-aos="fade-up">
+    <h2>ORGANIZERS</h2>
+  </div>
 
-      </div>
-	  
-	<div class="container_six">
-	<div class="image-box">
-        <a href="https://wilburone.github.io"><img src="assets/img/lifu-huang.jpg" alt="Dr. Lifu Huang"></a>
-        <div class="caption">
-            <p>Dr. Lifu Huang</p>
-            <p><b>UC Davis</b></p>
-			<!-- <p><b>Email:</b> lfuhuang@ucdavis.edu</p>
-			<p><b>Website:</b> <a href="https://wilburone.github.io">website_link</a></p> -->
-        </div>
-    </div>
+  <div class="organizer-grid">
     <div class="image-box">
-        <a href="https://sites.google.com/umich.edu/yujunyan/home"><img src="assets/img/yujun-yan.jpg" alt="Dr. Yujun Yan"></a>
-        <div class="caption">
-            <p>Dr. Yujun Yan</p>
-            <p><b>Dartmouth College</b></p>
-			<!-- <p><b>Email:</b> yujun.yan@dartmouth.edu</p>
-			<p><b>Website:</b> <a href="https://sites.google.com/umich.edu/yujunyan/home">website_link</a></p> -->
-        </div>
+      <a href="https://wilburone.github.io"><img src="assets/img/lifu-huang.jpg" alt="Dr. Lifu Huang"></a>
+      <div class="caption">
+        <p>Dr. Lifu Huang</p>
+        <p><b>UC Davis</b></p>
+      </div>
     </div>
+
+    <div class="image-box">
+      <a href="https://sites.google.com/umich.edu/yujunyan/home"><img src="assets/img/yujun-yan.jpg" alt="Dr. Yujun Yan"></a>
+      <div class="caption">
+        <p>Dr. Yujun Yan</p>
+        <p><b>Dartmouth College</b></p>
+      </div>
+    </div>
+
     <div class="image-box">
       <a href="https://roseyu.com/"><img src="assets/img/rose-yu.jpg" alt="Dr. Rose Yu"></a>
       <div class="caption">
-          <p>Dr. Rose Yu</p>
-          <p><b>UC San Diego</b></p>
-    <!-- <p><b>Email:</b> roseyu@ucsd.edu</p>
-    <p><b>Website:</b> <a href="https://roseyu.com/">website_link</a></p> -->
+        <p>Dr. Rose Yu</p>
+        <p><b>UC San Diego</b></p>
       </div>
-  </div>
-	<div class="image-box">
-        <a href="https://violetpeng.github.io/"><img src="assets/img/nanyun-peng.jpg" alt="Dr. Nanyun Peng"></a>
-        <div class="caption">
-            <p>Dr. Nanyun Peng</p>
-            <p><b>UCLA</b></p>
-			<!-- <p><b>Email:</b> violetpeng@cs.ucla.edu</p>
-			<p><b>Website:</b> <a href="https://violetpeng.github.io/">website_link</a></p> -->
-        </div>
     </div>
-  <div class="image-box">
-    <a href="https://dongqifu.github.io/"><img src="assets/img/dongqi-fu.jpg" alt="Dr. Dongqi Fu"></a>
-    <div class="caption">
+
+    <div class="image-box">
+      <a href="https://violetpeng.github.io/"><img src="assets/img/nanyun-peng.jpg" alt="Dr. Nanyun Peng"></a>
+      <div class="caption">
+        <p>Dr. Nanyun Peng</p>
+        <p><b>UCLA</b></p>
+      </div>
+    </div>
+
+    <div class="image-box">
+      <a href="https://dongqifu.github.io/"><img src="assets/img/dongqi-fu.jpg" alt="Dr. Dongqi Fu"></a>
+      <div class="caption">
         <p>Dr. Dongqi Fu</p>
         <p><b>Meta</b></p>
-  <!-- <p><b>Email:</b> dongqif2@illinois.edu</p>
-  <p><b>Website:</b> <a href="https://dongqifu.github.io/">website_link</a></p> -->
+      </div>
     </div>
-  </div>
-  <div class="image-box">
+
+    <div class="image-box">
       <a href="https://sites.google.com/view/dawei-zhou/home"><img src="assets/img/dawei-zhou.jpg" alt="Dr. Dawei Zhou"></a>
       <div class="caption">
-          <p>Dr. Dawei Zhou</p>
-          <p><b>Virginia Tech</b></p>
-    <!-- <p><b>Email:</b> zhoud@vt.edu</p>
-    <p><b>Website:</b> <a href="https://sites.google.com/view/dawei-zhou/home">website_link</a></p> -->
+        <p>Dr. Dawei Zhou</p>
+        <p><b>Virginia Tech</b></p>
       </div>
-  </div>
+    </div>
 
-	<div class="image-box">
+    <div class="image-box">
       <a href="https://search.asu.edu/profile/231973"><img src="assets/img/chitta-baral.jpg" alt="Dr. Chitta Baral"></a>
       <div class="caption">
-          <p>Dr. Chitta Baral</p>
-          <p><b>Arizona State University</b></p>
-    <!-- <p><b>Email:</b> zhoud@vt.edu</p>
-    <p><b>Website:</b> <a href="https://sites.google.com/view/dawei-zhou/home">website_link</a></p> -->
+        <p>Dr. Chitta Baral</p>
+        <p><b>Arizona State University</b></p>
       </div>
-  </div>
+    </div>
 
-	<div class="image-box">
+    <div class="image-box">
       <a href="https://www.cos.ufrj.br/~daniel/"><img src="assets/img/daniel.jpg" alt="Dr. Daniel Ratton Figueiredo"></a>
       <div class="caption">
-          <p>Dr. Daniel Ratton Figueiredo</p>
-          <p><b>Federal University of Rio de Janeiro</b></p>
-    <!-- <p><b>Email:</b> zhoud@vt.edu</p>
-    <p><b>Website:</b> <a href="https://sites.google.com/view/dawei-zhou/home">website_link</a></p> -->
+        <p>Dr. Daniel Ratton Figueiredo</p>
+        <p><b>Federal University of Rio de Janeiro</b></p>
       </div>
+    </div>
   </div>
+</section>
 
-	
-</div>
-	  
-	</section>
 	
 	<!-- <section id="organizers" class="organizers section">
 
