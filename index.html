@@ -182,8 +182,8 @@ ul li {
       </div>
       <div class="container text-center">
         <div class="d-flex flex-column justify-content-center align-items-center">
-          <h1 data-aos="fade-up">Towards Agentic AI for Science: Hypothesis Generation, Comprehension, Quantification, and Validation  (ICLR, 2026)</h1>
-          <p data-aos="fade-up" data-aos-delay="100"> 2026 | Rio de Janeiro, Brazil<br></p>
+          <h1 data-aos="fade-up">Towards End-to-End Automation in Materials Science: From Hypothesis Generation to Simulation, Validation, and Manufacturing  (ICML, 2026)</h1>
+          <p data-aos="fade-up" data-aos-delay="100"> 2026 | South Korea<br></p>
           <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
             <!-- <a href="#speakers" class="btn-getstarted">Gallery</a> -->
             <!-- <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
@@ -245,45 +245,21 @@ ul li {
 
         <h2>About the Workshop</h2>
         
-		<p align="left"> Our mission is to foster interdisciplinary collaboration to develop fully autonomous AI systems, addressing challenges like benchmark datasets, human-AI collaboration, robust tools and methods for validating AI outputs, and trustworthiness. By tackling these issues, we can unlock AI's transformative potential in research. In this workshop, themed <b>Agentic AI for Science</b>, we will explore these critical topics and welcome diverse perspectives. We will focus on integrating agentic AI systems to enhance scientific discovery while upholding rigorous standards. For AI to contribute effectively, it must <b>generate novel hypotheses, comprehend their applications, quantify testing resources, and validate feasibility through well-designed experiments</b>. This workshop serves as a vital forum for collaboration and knowledge-sharing aimed at redefining the landscape of scientific discovery. This workshop aims to address four main research thrusts to propel future research, including (non-exclusively):  
+		<p align="left"> Materials science is increasingly driven by data and computation, yet the discovery pipeline remains fragmented: researchers must manually connect hypothesis generation (what to make), simulation (what will happen), validation (is it real), and manufacturing (can it be produced reliably). While modern machine learning has achieved strong results for individual tasks (e.g., property prediction, structure generation, and surrogate modeling), these components rarely form an end-to-end workflow that consistently produces validated and manufacturable materials. This workshop aims to bring together the ML and materials communities to discuss methods that enable closed-loop, end-to-end automation, where candidate materials are proposed, evaluated via simulation, refined through feedback, and filtered by realworld production constraints. This workshop aims to address four main research thrusts to propel future research, including (non-exclusively):  
 			  </p>
 		<!-- <p align="left">This workshop invites insights from scientists and technology developers to gain a clearer understanding of how to address the factors that necessitate human involvement in AI systems. In this regard, we aim to thoroughly examine several important issues by welcoming and covering a wide range of topics, including (non-exclusively): </p>
 		 -->
-		<p><b>Thrust 1. Design and development of agentic AI systems for scientific discovery.</b> The emergence of agentic AI, powered by foundation models—particularly generative models—opens up unprecedented opportunities for scientific discovery. These systems can potentially revolutionize various aspects of the scientific process, including hypothesis generation, comprehension of complex scientific phenomena, quantification, and validation. Designing and developing effective agentic AI systems for scientific discovery is both exciting and non-trivial. Pioneering work in this field has already demonstrated the promise of leveraging scientific tools, agents, and knowledge graphs. Notable examples include ChemCrow, which showcases the potential of AI in chemistry; Crispr-GPT, which applies AI to genetic engineering; and SciAgents , which illustrates the power of multi-agent systems in scientific discovery. These groundbreaking studies highlight the transformative potential of agentic AI in accelerating scientific progress and opening new avenues for research.  Key research topics in this thrust include (but not limited to):
+		<p><b>Thrust 1. Material hypothesis generation and design</b>: generative modeling for compositions/structures, novelty vs. feasibility trade-offs, and data-driven exploration of large design spaces. 
 		 </p>
-		<ul>
-		<li><i>Developing scientific foundation models:</i>  Tailoring general foundation models specifically for various scientific fields to enhance relevance and accuracy.</li>
-		<li><i>Effective scientific tool augmentation:</i> Enhancing existing scientific tools and methodologies with agentic AI capabilities.</li>
-		<li><i>Multi-agent decomposition design:</i> Developing frameworks for scientific hypothesis generation using multiple specialized AI agents.</li>
-		<li><i>Human-in-the-loop agentic systems:</i> Improving reliability and interpretability of AI-driven scientific discoveries through strategic human intervention.</li>
-		</ul>
 		
-		<p><b>Thrust 2. Theoretical foundation for scientific agentic AI.</b> Developing agentic scientific AI requires methods to quantify the predictions and performance of these systems, as well as to validate the scientific hypotheses they generate. A thorough investigation of agentic scientific AI systems also demands solid theoretical foundations and tools to ensure guarantees on their behavior. To analyze and evaluate such systems, we will incorporate theoretical tools in modeling, logical reasoning, model validation and diagnosis, interpretable AI, and other general methods that can provide guarantees on agentic systems. Key topics in this area include, but are not limited to, the following:
+		<p><b>Thrust 2. Simulation and multi-fidelity modeling</b>: combining physics simulators with learned surrogates, active learning, and adaptive allocation of compute and experiment budgets.
 		 </p>
-		<ul>
-		<li><i>Theoretical foundation:</i>  Statistical models and theories of agentic scientific AI, such as theoretical studies on in-context learning, multi-agent communications, game theory, physics-informed hard and soft optimization constraints, and neural operators.</li>
-		<li><i>Logic reasoning:</i> Inductive, deductive, and abductive reasoning; Bayesian reasoning and probabilistic programming; neural-symbolic approaches.</li>
-		<li><i>Model quantification, validation, diagnosis:</i> Theory-driven metrics for quantifying AI system performance; self-evaluation of LLMs; data valuation and data-centric AI; diagnostics for data, architecture, and training processes; creation of standardized benchmarks for evaluating the validity of scientific hypothesis generation; scientific facts and hallucination.</li>
-		<li><i>Interpretable AI:</i> Approaches for explaining agentic AI system behaviors; quantifying trust, safety, and transparency; mechanistic interpretability.</li>
-		</ul>
 		
-		<p><b>Thrust 3. Practical application of scientific agentic AI.</b> Deploying agentic AI systems in practical scientific research across diverse domains presents numerous challenges, particularly due to the need for domain-specific adaptation such as the unique data formats and model constraints of each scientific field. Bias in training data poses a significant risk, especially in sensitive domains like medicine. Trustworthiness and explainability are essential for scientists to confidently integrate AI-generated hypotheses and solutions into their research. Furthermore, ethical considerations arise when AI systems potentially automate research decisions that may impact public health, policy, or environmental outcomes, underscoring the importance of responsible AI deployment in science.
+		<p><b>Thrust 3. Validation and scientific reliability</b>: uncertainty quantification, calibration, robustness testing, reproducibility, and benchmarks that measure scientific validity beyond predictive accuracy.
 		 </p>
-		<ul>
-		<li><i>Domain-specific model adaptation:</i>  Adapting agentic AI models to handle domain-specific data formats, workflows, and tools across various scientific fields; transfer learning and data-efficient fine-tuning.</li>
-		<li><i>Bias detection and mitigation:</i> Identifying and mitigating bias in training data, model design and outputs; fairness-aware AI systems for sensitive domains like healthcare and social science.</li>
-		<li><i>Robustness, trustworthiness and explainability:</i> Methods for improving the transparency and explainability of agentic AI systems in scientific research; uncertainty interpretation and quantification.</li>
-		<li>Ethical considerations and responsible use of agentic AI in sensitive research areas; development of AI governance models to ensure accountability and human oversight in automated scientific workflows.</li>
-		</ul>
 		
-		<p><b>Thrust 4. Open problems and challenges on scientific agentic AI.</b> Despite the promising potential of agentic AI in scientific discovery, many open problems and challenges remain to be addressed. These may include:
+		<p><b>Thrust 4. Manufacturing-aware optimization</b>: incorporating fabrication constraints, process conditions, tolerance and yield, and bridging “design-to-device” deployment.
 		 </p>
-		<ul>
-		<li>Automatic curation of domain-specific scientific domains and integration of the knowledge into agentic AI systems.</li>
-		<li>Advanced mechanisms of multi-agent collaboration in scientific discovery, with considerations of their scalability and computational efficiency.</li>
-		<li>Continual evolution and learning of agentic AI systems; Mechanisms for updating models and improving performance based on experimental results, new data and discoveries.</li>
-		<li>Validation and reproducibility of results generated by agentic AI systems.</li>
-		</ul>
 	
 		
 		
@@ -306,10 +282,10 @@ ul li {
       </div>
 	<div class="container_six">
     <div class="image-box">
-        <a href="https://www.cs.washington.edu/people/faculty/luke-zettlemoyer/"><img src="assets/img/luke-zettlemoyer.jpg" alt="Dr. Luke S. Zettlemoyer"></a>
+        <a href="https://cee.mit.edu/people_individual/markus-j-buehler/"><img src="assets/img/markus-buehler.jpg" alt="Dr. Markus J. Buehler"></a>
         <div class="caption">
-            <p>Dr. Luke S. Zettlemoyer</p>
-            <p><b>Paul G. Allen School of Computer Science & Engineering, University of Washington</b></p>
+            <p>Dr. Markus Buehler</p>
+            <p><b>Civil and Environmental Engineering, Massachusetts Institute of Technology</b></p>
         </div>
     </div>
     <div class="image-box">
@@ -320,17 +296,17 @@ ul li {
       </div>
     </div>
 	  <div class="image-box">
-        <a href="https://siebelschool.illinois.edu/about/people/faculty/hengji"><img src="assets/img/heng-ji.jpg" alt="Dr. Heng Ji"></a>
+        <a href="https://www.chemistry.utoronto.ca/people/directories/all-faculty/al%C3%A1n-aspuru-guzik"><img src="assets/img/alan-aspuru-guzik.jpg" alt="Dr. Alán Aspuru-Guzik"></a>
         <div class="caption">
-            <p>Dr. Heng Ji</p>
-            <p><b>Department of Computer Science, University of Illinois Urbana-Champaign</b></p>
+            <p>Dr. Alán Aspuru-Guzik</p>
+            <p><b>Chemistry and Computer Science, University of Toronto</b></p>
         </div>
     </div>
     <div class="image-box">
-        <a href="https://stanford.edu/~yamins"><img src="assets/img/dan-yamins.jpg" alt="Dr. Dan Yamins"></a>
+        <a href="https://kyunghyuncho.me/"><img src="assets/img/kyunghyun-cho.jpg" alt="Dr. Kyunghyun Cho"></a>
         <div class="caption">
-            <p>Dr. Dan Yamins</p>
-            <p><b>Department of Psychology and Computer Science, Stanford University</b></p>
+            <p>Dr. Kyunghyun Cho</p>
+            <p><b>Computer Science, New York University / Genentech</b></p>
         </div>
     </div>
     <div class="image-box">
@@ -341,10 +317,10 @@ ul li {
         </div>
     </div>
     <div class="image-box">
-        <a href="https://people.math.wisc.edu/~ellenberg/"><img src="assets/img/jordan-ellenberg.jpg" alt="Dr. Jordan S. Ellenberg"></a>
+        <a href="https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/chen-wei.html"><img src="assets/img/wei-chen.jpg" alt="Dr. Wei Chen"></a>
         <div class="caption">
-            <p>Dr. Jordan S. Ellenberg</p>
-            <p><b>John D. MacArthur Professor, Department of Mathematics, University of Wisconsin</b></p>
+            <p>Dr. Wei Chen</p>
+            <p><b>Mechanical Engineering, Northwestern University</b></p>
         </div>
     </div>
 </div>
@@ -370,10 +346,10 @@ ul li {
 		<h3>Workshop Themes</h3>
 		<p>We invite contributions addressing the following research thrusts:</p>
 		<ul>
-		  <li><strong>Design and Development of Agentic AI Systems:</strong> Exploring frameworks, tools, and human-in-the-loop systems for scientific discovery.</li>
-		  <li><strong>Theoretical Foundations:</strong> Developing statistical models and reasoning approaches for hypothesis validation and performance assessment.</li>
-		  <li><strong>Practical Applications:</strong> Examining domain-specific adaptations, ethical considerations, and governance frameworks for responsible deployment.</li>
-		  <li><strong>Open Problems and Challenges:</strong> Addressing issues in knowledge integration, validation, and continual improvement of agentic AI systems.</li>
+		  <li><strong>Material hypothesis generation and design:</strong> generative modeling for compositions/structures, novelty vs. feasibility trade-offs, and data-driven exploration of large design spaces.</li>
+		  <li><strong>Simulation and multi-fidelity modeling:</strong> combining physics simulators with learned surrogates, active learning, and adaptive allocation of compute and experiment budgets.</li>
+		  <li><strong>Validation and scientific reliability:</strong> uncertainty quantification, calibration, robustness testing, reproducibility, and benchmarks that measure scientific validity beyond predictive accuracy.</li>
+		  <li><strong>Manufacturing-aware optimization:</strong> incorporating fabrication constraints, process conditions, tolerance and yield, and bridging “design-to-device” deployment.</li>
 		</ul>
 	  </div>
 	  
@@ -828,42 +804,44 @@ ul li {
     </div>
 
     <div class="image-box">
-      <a href="https://roseyu.com/"><img src="assets/img/rose-yu.jpg" alt="Dr. Rose Yu"></a>
-      <div class="caption">
-        <p>Dr. Rose Yu</p>
-        <p><b>UC San Diego</b></p>
-      </div>
-    </div>
-
-    <div class="image-box">
-      <a href="https://violetpeng.github.io/"><img src="assets/img/nanyun-peng.jpg" alt="Dr. Nanyun Peng"></a>
-      <div class="caption">
-        <p>Dr. Nanyun Peng</p>
-        <p><b>UCLA</b></p>
-      </div>
-    </div>
-
-	<div class="image-box">
       <a href="https://search.asu.edu/profile/231973"><img src="assets/img/chitta-baral.jpg" alt="Dr. Chitta Baral"></a>
       <div class="caption">
         <p>Dr. Chitta Baral</p>
         <p><b>Arizona State University</b></p>
       </div>
     </div>
-	  
+
     <div class="image-box">
-      <a href="https://dongqifu.github.io/"><img src="assets/img/dongqi-fu.jpg" alt="Dr. Dongqi Fu"></a>
+      <a href="https://web.eecs.umich.edu/~dkoutra/"><img src="assets/img/danai-koutra.jpg" alt="Dr. Danai Koutra"></a>
       <div class="caption">
-        <p>Dr. Dongqi Fu</p>
-        <p><b>Meta</b></p>
+        <p>Dr. Danai Koutra</p>
+        <p><b>University of Michigan</b></p>
       </div>
     </div>
 
     <div class="image-box">
-      <a href="https://www.cos.ufrj.br/~daniel/"><img src="assets/img/daniel.jpg" alt="Dr. Daniel Ratton Figueiredo"></a>
+      <a href="https://cispa.de/en/people/jilles.vreeken"><img src="assets/img/jilles-vreeken.jpg" alt="Dr. Jilles Vreeken"></a>
       <div class="caption">
-        <p>Dr. Daniel Ratton Figueiredo</p>
-        <p><b>Federal University of Rio de Janeiro</b></p>
+        <p>Dr. Jilles Vreeken</p>
+        <p><b>CISPA Helmholtz Center for Information Security</b></p>
+      </div>
+    </div>
+
+	
+	  
+    <div class="image-box">
+      <a href="https://scholar.google.com/citations?user=vbmI_DIAAAAJ&hl=en"><img src="assets/img/luca-ghiringhelli.jpg" alt="Dr. Luca M. Ghiringhelli"></a>
+      <div class="caption">
+        <p>Dr. Luca M. Ghiringhelli</p>
+        <p><b>Karlsruhe Institute of Technology</b></p>
+      </div>
+    </div>
+
+    <div class="image-box">
+      <a href="https://micc.snu.ac.kr/professor/"><img src="assets/img/yousung=jung" alt="Dr. Yousung Jung"></a>
+      <div class="caption">
+        <p>Dr. Yousung Jung</p>
+        <p><b>Seoul National University</b></p>
       </div>
     </div>
   </div>
@@ -896,7 +874,7 @@ ul li {
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Publicity Chair</h2>
+        <h2>Website Chair</h2>
       </div><!-- End Section Title -->
 
       <div class="container_two">
@@ -910,12 +888,20 @@ ul li {
         </div>
     </div>
     <div class="image-box">
-      <a href="https://scholar.google.com/citations?user=Qcshi8UAAAAJ&hl=en"><img src="assets/img/zhiyang-xu.jpg" alt="Zhiyang Xu"></a>
+      <a href="https://zihaolinqz.github.io/"><img src="assets/img/zihao-lin.jpg" alt="Zihao Lin"></a>
       <div class="caption">
-          <p>Zhiyang Xu</p>
-          <p><b>Virginia Tech</b></p>
-    <!-- <p><b>Email:</b> zhiyangx@vt.edu</p>
-    <p><b>Website:</b> <a href="https://scholar.google.com/citations?user=Qcshi8UAAAAJ&hl=en">website_link</a></p> -->
+          <p>Zihao Lin</p>
+          <p><b>UC Davis</b></p>
+    <!-- <p><b>Email:</b> qzlin@ucdavis.edu</p>
+    <p><b>Website:</b> <a href="https://zihaolinqz.github.io/">website_link</a></p> -->
+      </div>
+    <div class="image-box">
+      <a href="https://jiankeyang.github.io/"><img src="assets/img/jianke-yang.jpg" alt="Jianke Yang"></a>
+      <div class="caption">
+          <p>Jianke Yang</p>
+          <p><b>UCSD</b></p>
+    <!-- <p><b>Email:</b> jiy065@ucsd.edu</p>
+    <p><b>Website:</b> <a href="https://jiankeyang.github.io/">website_link</a></p> -->
       </div>
   </div>
 	  
